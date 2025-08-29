@@ -1,0 +1,71 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    background-color: rgb(31, 31, 31);
+    padding: 10px;
+    border: 5px; 
+    width: 477px;
+}
+    
+#div1 {
+    grid-column: span 12 / span 12;
+    grid-row: span 6 / span 6;
+    padding: 1px;
+    color: white;
+
+}
+
+#div2 {
+    grid-column: span 12 / span 12;
+    grid-row: span 6 / span 6;
+    padding: 1px;
+    color: white;
+
+}
+
+#div3 {
+    grid-column: span 12 / span 12;
+    grid-row: span 6 / span 6;
+    padding: 1px;
+    color: white;
+
+}
+
+button{
+    height: 80px;
+    width: 120px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border: 5px; 
+    border: 1px; 
+    border-radius: 10px; 
+    margin: 1px;
+    
+}
+
+button:hover{
+    background-color:rgb(61, 61, 61);
+}
+
+.numero{
+    background-color:rgb(61, 61, 61);
+    color: white;
+}
+
+.numero:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+.igual{
+    background-color: rgb(140, 245, 213);
+    color: black;
+}
+
+.igual:hover{
+    background-color: rgb(115, 204, 207);
+    
+}
+
+
+           
